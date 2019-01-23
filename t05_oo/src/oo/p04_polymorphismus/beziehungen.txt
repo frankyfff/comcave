@@ -1,0 +1,1 @@
+für Beziehungstypen siehe Klasse "Dozent".
