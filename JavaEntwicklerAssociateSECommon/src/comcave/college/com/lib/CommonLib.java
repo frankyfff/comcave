@@ -162,6 +162,21 @@ public abstract class CommonLib
     }
     
     /********************************************************************************/
+    public static void printHeapSizeInfoByte() /*Überladene Methode - Overload Method*/
+    {
+        printHeapSizeInfo(0);
+    }
+    /********************************************************************************/
+       public static void printHeapSizeInfoKByte() /*Überladene Methode - Overload Method*/
+    {
+        printHeapSizeInfo(DISPLAY_TYPE_KB);
+    }
+    /********************************************************************************/
+       public static void printHeapSizeInfoMByte() /*Überladene Methode - Overload Method*/
+    {
+        printHeapSizeInfo(DISPLAY_TYPE_MB);
+    }
+    /********************************************************************************/
     
     
 }
